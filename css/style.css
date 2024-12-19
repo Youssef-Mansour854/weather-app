@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    text-transform: none; 
+}
+
+main {
+    background-image: url(../images/breathtaking-shot-mirror-like-sea-reflecting-beauty-sky-lofoten-norway.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+}
+
+header .nav {
+    background-color: #001F3F;
+    color: #ffffff;
+}
+
+header .nav .logo {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+header .nav .logo i {
+    font-size: 24px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #fff;
+    max-width: 300px; 
+    width: 100%;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 25px 0 0 25px;
+}
+
+.search-bar button {
+    background-color: #f39c12;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+}
+
+.search-bar button i {
+    color: white;
+}
+
+.search-bar button:hover {
+    background-color: #e67e22;
+}
+
+.search-bar input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    padding: 20px;
+    border-radius: 10px; 
+    color: white; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+footer {
+    background-color: #304c68;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 10px; 
+    color: white; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    font-size: 14px;
+}

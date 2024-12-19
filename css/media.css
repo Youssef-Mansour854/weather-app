@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    main {
+        min-height: 100vh;
+        height: 100%; 
+    }
+    
+    .logo {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .search-bar {
+        max-width: 100%; 
+    }
+
+    .search-bar input {
+        font-size: 14px; 
+    }
+
+    .search-bar button {
+        padding: 8px 12px; 
+    }
+}
